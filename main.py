@@ -1,12 +1,10 @@
-from Cpf_cnpj import Documento, DocCnpj, DocCpf
-from telefones_br import TelefoneBr
-import re
-
-telefone = '9417985745478'
-
-telefone1 = TelefoneBr(telefone)
+from datetime import datetime
+from datas_br import DatasBr
 
 
-print(telefone1)
+cadastro = DatasBr()
+print(cadastro)
 
-
+# hoje = datetime.today()
+# hoje_f = hoje.strftime('%d/%m/%Y %H:%M')
+# print(hoje_f)
